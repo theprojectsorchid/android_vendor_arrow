@@ -115,3 +115,5 @@ include vendor/arrow/config/props.mk
 
 # Sounds
 include vendor/arrow/config/sounds.mk
+
+TARGET_NO_KERNEL_OVERRIDE := true
