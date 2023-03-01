@@ -110,3 +110,8 @@ PRODUCT_PACKAGES += \
 # World APN list
 PRODUCT_PACKAGES += \
     apns-conf.xml
+    
+ 
+# Misc packages and Config
+PRODUCT_PACKAGES += \
+    SakuraSettings \
