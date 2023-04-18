@@ -25,11 +25,11 @@ PRODUCT_PACKAGES += \
     messaging \
     SimpleGallery \
     Stk \
-    stats \
     ThemePicker \
     ArrowThemesStub \
-    GameSpace
-
+    GameSpace \
+    Mine
+    
 # SystemUI plugins
 PRODUCT_PACKAGES += \
     QuickAccessWallet
