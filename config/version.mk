@@ -14,16 +14,16 @@
 # limitations under the License.
 
 ARROW_MOD_VERSION = v12.1
-ARROW_BUILD_TYPE := UNOFFICIAL
-ARROW_BUILD_ZIP_TYPE := VANILLA
+ARROW_BUILD_TYPE := OFFICIAL
+ARROW_BUILD_ZIP_TYPE := GrannySmith
 
 ifeq ($(ARROW_BETA),true)
     ARROW_BUILD_TYPE := BETA
 endif
 
 ifeq ($(ARROW_GAPPS), true)
-    $(call inherit-product, vendor/gapps/common/common-vendor.mk)
-    ARROW_BUILD_ZIP_TYPE := GAPPS
+    $(call inherit-product, vendor/partner_gms/gms.mk)
+    ARROW_BUILD_ZIP_TYPE := microg
 endif
 
 CURRENT_DEVICE=$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3)
@@ -56,7 +56,7 @@ ifeq ($(ARROW_COMMUNITY), true)
     endif
 endif
 
-ARROW_VERSION := Arrow-$(ARROW_MOD_VERSION)-$(CURRENT_DEVICE)-$(ARROW_BUILD_TYPE)-$(shell date -u +%Y%m%d)-$(ARROW_BUILD_ZIP_TYPE)
+ARROW_VERSION := AndroidOs-$(ARROW_MOD_VERSION)-$(CURRENT_DEVICE)-$(ARROW_BUILD_ZIP_TYPE)
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
   ro.arrow.version=$(ARROW_VERSION) \
@@ -64,7 +64,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
   ro.arrow.ziptype=$(ARROW_BUILD_ZIP_TYPE) \
   ro.modversion=$(ARROW_MOD_VERSION)
 
-ARROW_DISPLAY_VERSION := Arrow-$(ARROW_MOD_VERSION)-$(ARROW_BUILD_TYPE)
+ARROW_DISPLAY_VERSION := AndroidOs-$(ARROW_MOD_VERSION)-$(ARROW_BUILD_TYPE)
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
   ro.arrow.display.version=$(ARROW_DISPLAY_VERSION)

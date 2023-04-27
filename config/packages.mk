@@ -18,17 +18,16 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
     SimpleCalendar \
     DuckDuckGo \
-    ExactCalculator \
     ImmersiveNavigationOverlay \
     LatinIME \
     Launcher3QuickStep \
-    messaging \
     SimpleGallery \
     Stk \
-    stats \
     ThemePicker \
     ArrowThemesStub \
-    GameSpace
+    GameSpace \
+    PdfViewer \
+    qksms
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
