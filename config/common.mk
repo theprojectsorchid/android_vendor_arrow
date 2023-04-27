@@ -104,3 +104,10 @@ include vendor/arrow/config/props.mk
 
 # Sounds
 include vendor/arrow/config/sounds.mk
+
+# MicroGGms
+include vendor/partner_gms/gms.mk
+
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+# MicroG
+WITH_GMS=true
