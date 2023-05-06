@@ -90,6 +90,12 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+
+# OrchidOs extras
+include vendor/foss/foss.mk
+include vendor/lawnchair/lawnchair.mk
+
 # Bootanimation
 include vendor/arrow/config/bootanimation.mk
 
