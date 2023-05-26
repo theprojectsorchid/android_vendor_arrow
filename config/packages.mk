@@ -26,8 +26,7 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     ArrowThemesStub \
     GameSpace \
-    PdfViewer \
-    qksms
+    PdfViewer 
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
