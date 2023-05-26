@@ -96,7 +96,7 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 # OrchidOs extras
 include vendor/foss/foss.mk
 include vendor/lawnchair/lawnchair.mk
-
+include vendor/arrow/config/sounds.mk
 include vendor/partner_gms/gms.mk
 
 # Bootanimation
@@ -112,4 +112,4 @@ include vendor/arrow/config/packages.mk
 include vendor/arrow/config/props.mk
 
 # Sounds
-include vendor/arrow/config/sounds.mk
+include vendor/addons/addons.mk
