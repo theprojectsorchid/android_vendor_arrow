@@ -113,6 +113,3 @@ include vendor/arrow/config/props.mk
 
 # Sounds
 include vendor/arrow/config/sounds.mk
-
-# Sounds
-include vendor/arrow/addons/addons.mk

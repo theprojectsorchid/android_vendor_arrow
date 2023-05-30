@@ -32,11 +32,4 @@ PRODUCT_PACKAGES += \
     FontGoogleSansLatoOverlay \
     FontInterOverlay \
     FontOppoSansOverlay \
-    FontGInterOverlay \
-    FontGoogleSansOverlay \
-    FontLinotteSourceOverlay \
-    FontManropeOverlay \
-    FontOnePlusSansOverlay \
-    FontOneplusSlateSourceOverlay \
-    FontOneUISansOverlay
     FontRubikRubikOverlay
