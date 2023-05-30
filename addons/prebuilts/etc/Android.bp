@@ -1,0 +1,5 @@
+prebuilt_etc {
+    name: "fonts_customization2.xml",
+    src: "fonts_customization2.xml",
+    product_specific: true,
+}
