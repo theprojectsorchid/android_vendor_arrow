@@ -95,7 +95,7 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 # OrchidOs extras
 include vendor/foss/foss.mk
-include vendor/lawnchair/lawnchair.mk
+
 
 include vendor/partner_gms/gms.mk
 
