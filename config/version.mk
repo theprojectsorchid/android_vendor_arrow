@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ARROW_MOD_VERSION = OrchidOS
+ARROW_MOD_VERSION = PepsiOS
 ARROW_BUILD_TYPE := OFFICIAL
 ARROW_BUILD_ZIP_TYPE := Grannysmith
 
@@ -23,7 +23,7 @@ endif
 
 ifeq ($(ARROW_GAPPS), true)
     $(call inherit-product, vendor/partner_gms/gms.mk)
-    ARROW_BUILD_ZIP_TYPE := vMicroKactus
+    ARROW_BUILD_ZIP_TYPE := vSnackaJack
 endif
 
 CURRENT_DEVICE=$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3)
@@ -56,7 +56,7 @@ ifeq ($(ARROW_COMMUNITY), true)
     endif
 endif
 
-ARROW_VERSION := AndroidOstest-$(ARROW_MOD_VERSION)-$(CURRENT_DEVICE)-$(ARROW_BUILD_ZIP_TYPE)
+ARROW_VERSION := GBS-$(ARROW_MOD_VERSION)-$(CURRENT_DEVICE)-$(ARROW_BUILD_ZIP_TYPE)
 
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
   ro.arrow.version=$(ARROW_VERSION) \
