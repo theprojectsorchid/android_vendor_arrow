@@ -26,8 +26,10 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     ArrowThemesStub \
     GameSpace \
-    PdfViewer 
-
+    PdfViewer  \
+    WalkersPapers \
+    DotWallpapers 
+        
 # SystemUI plugins
 PRODUCT_PACKAGES += \
     QuickAccessWallet
