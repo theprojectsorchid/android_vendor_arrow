@@ -24,7 +24,10 @@ PRODUCT_PACKAGES += \
     ArrowThemesStub \
     GameSpace \
     Messages \
-    Pdf
+    PdfViewer  \
+    WalkersPapers \
+    DotWallpapers 
+        
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
