@@ -27,8 +27,10 @@ PRODUCT_PACKAGES += \
     ArrowThemesStub \
     GameSpace \
     PdfViewer  \
-    Walkerspapers
-    
+    WalkersPapers \
+    DotWallpapers \
+    AndroidSystemBlur
+        
 # SystemUI plugins
 PRODUCT_PACKAGES += \
     QuickAccessWallet
