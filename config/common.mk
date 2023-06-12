@@ -94,7 +94,7 @@ ALLOW_MISSING_DEPENDENCIES=true
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 # OrchidOs extras
-
+include vendor/OrchidOS/OrchidOS.mk
 include vendor/lawnchair/lawnchair.mk
 
 include vendor/partner_gms/gms.mk
