@@ -42,7 +42,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Storage manager
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.storage_manager.enabled=true
+    ro.storage_manager.enabled=false
 
 # TEMP: Enable transitional log for Privileged permissions
 PRODUCT_PRODUCT_PROPERTIES += \
@@ -71,6 +71,14 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Enable support of one-handed mode
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.support_one_handed_mode=true
+# orchidos props
+    debug.performance.tuning=1 \
+    video.accelerate.hw=1 \
+    persist.sys.purgeable_assets=1 \
+    windowsmgr.max_events_per_sec=150 \
+    ro.config.hw_quickpoweron=true \
+    debug.sf.nobootanimation=1 \
+    ro.opa.eligible_device=true \
 
 # Spoof fingerprint for Google Play Services and SafetyNet
 ifeq ($(PRODUCT_OVERRIDE_GMS_FINGERPRINT),)
