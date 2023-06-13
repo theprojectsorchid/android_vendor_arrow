@@ -99,6 +99,7 @@ include vendor/partner_gms/gms.mk
 
 include vendor/lawnchair/lawnchair.mk
 
+include vendor/arrow/addons/config.mk
 # Bootanimation
 include vendor/arrow/config/bootanimation.mk
 
