@@ -1,0 +1,167 @@
+soong_namespace {
+}
+
+android_app_import {
+        name: "AdAway",
+        apk: "AdAway/AdAway.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+	name: "aperture",
+	owner: "google",
+	apk: "aperture/aperture.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["Camera2"],
+       
+}
+
+
+android_app_import {
+        name: "aves",
+        apk: "aves/aves.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+	privileged: true,
+	product_specific: true,
+	overrides: ["Gallery2"],
+       
+}
+
+android_app_import {
+        name: "athena",
+        apk: "athena/athena.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "cal",
+        apk: "cal/cal.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "cleanerplus",
+        apk: "cleanerplus/cleanerplus.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+
+android_app_import {
+	name: "connectyou",
+	owner: "google",
+	apk: "connectyou/connectyou.apk",
+	presigned: true,
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+	overrides: ["Contacts"],
+        },
+}
+
+
+android_app_import {
+        name: "datamonitor",
+        apk: "datamonitor/datamonitor.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+
+android_app_import {
+        name: "dualwall",
+        apk: "dualwall/dualwall.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "gpt",
+        apk: "gpt/gpt.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+
+android_app_import {
+        name: "imagetool",
+        apk: "imagetool/imagetool.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "qstiles",
+        apk: "qstiles/qstiles.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "recordyou",
+        apk: "recordyou/recordyou.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+
+android_app_import {
+        name: "taptap",
+        apk: "taptap/taptap.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+
+android_app_import {
+        name: "Telegram",
+        apk: "Telegram/Telegram.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "wifiinfo",
+        apk: "wifiinfo/wifiinfo.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
