@@ -97,6 +97,8 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 include vendor/partner_gms/gms.mk
 
+include vendor/lawnchair/lawnchair.mk
+
 # Bootanimation
 include vendor/arrow/config/bootanimation.mk
 
