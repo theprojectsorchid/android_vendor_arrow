@@ -96,6 +96,7 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 # OrchidOs extras
 
 include vendor/partner_gms/gms.mk
+include vendor/arrow/config/lowram.mk
 
 include vendor/lawnchair/lawnchair.mk
 
