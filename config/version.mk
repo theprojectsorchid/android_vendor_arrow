@@ -23,7 +23,7 @@ endif
 
 ifeq ($(ARROW_GAPPS), true)
     $(call inherit-product, vendor/partner_gms/gms.mk)
-    ARROW_BUILD_ZIP_TYPE := vSnackaJack
+    ARROW_BUILD_ZIP_TYPE := vSnackaJacks
 endif
 
 CURRENT_DEVICE=$(shell echo "$(TARGET_PRODUCT)" | cut -d'_' -f 2,3)
