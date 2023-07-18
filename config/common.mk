@@ -95,10 +95,10 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 # OrchidOs extras
 
-include vendor/partner_gms/gms.mk
 include vendor/arrow/config/lowram.mk
+include vendor/webview/bromite.mk
 
-include vendor/lawnchair/lawnchair.mk
+include vendor/fonts/fonts.mk
 
 include vendor/arrow/addons/config.mk
 # Bootanimation
