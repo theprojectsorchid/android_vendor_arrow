@@ -78,7 +78,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
     windowsmgr.max_events_per_sec=150 \
     ro.config.hw_quickpoweron=true \
     debug.sf.nobootanimation=1 \
-    ro.opa.eligible_device=true \
+    ro.opa.eligible_device=true 
 
 # Spoof fingerprint for Google Play Services and SafetyNet
 ifeq ($(PRODUCT_OVERRIDE_GMS_FINGERPRINT),)
