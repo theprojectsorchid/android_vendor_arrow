@@ -182,3 +182,23 @@ android_app_import {
                 enabled: false,
         },
 }
+
+android_app_import {
+        name: "ClockWidget",
+        apk: "ClockWidget/ClockWidget.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+}
+
+android_app_import {
+        name: "AuroraStore",
+        apk: "AuroraStore/AuroraStore.apk",
+        presigned: true,
+        dex_preopt: {
+                enabled: false,
+        },
+        required: ["privapp-permissions-aurorastore.xml"],
+        privileged: true,
+}
