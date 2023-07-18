@@ -6,15 +6,16 @@ PRODUCT_SOONG_NAMESPACES += \
 # Apps
 PRODUCT_PACKAGES += \
 	AdAway \
+	AuroraStore  \
 	athena \
 	aves \
 	cal \
 	Cam63 \
 	cleanerplus \
 	connectyou \
+        ClockWidget  \
 	datamonitor \
 	dualwall \
-	datamonitor \
 	etar \
 	gpt \
 	imagetool \
@@ -23,4 +24,4 @@ PRODUCT_PACKAGES += \
 	recordyou \
 	taptap \
 	Telegram \
-	wifiinfo
+	wifiinfo 

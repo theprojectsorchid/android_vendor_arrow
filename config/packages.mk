@@ -25,6 +25,8 @@ PRODUCT_PACKAGES += \
     GameSpace \
     Messages \
     PdfViewer  \
+    Widget \
+    talkback \
     WalkersPapers \
     DotWallpapers 
         
